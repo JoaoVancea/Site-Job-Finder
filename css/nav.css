@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.esquerda {
+    display: flex;
+    gap: 120px;
+}
+.logo {
+    display: flex;
+    gap: 8px;
+    margin-left: 112px;
+    line-height: 24px;
+}
+.logo img {
+    width: 27px;
+    height: 27px;
+}
+.logo h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #3A404E;
+}
+nav li {
+    display: flex;
+    gap: 32px;
+    color: #667085;
+    font-weight: 500;
+    font-size: 16px;
+}
+.login {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-right: 110px;
+}
+.login button {
+    width: 112px;
+    height: 44px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #8E2424;
+    border-radius: 8px;
+    border: none;
+}
+.login h2 {
+    color: #667085;
+    font-size: 16px;
+    font-weight: 500;
+}
