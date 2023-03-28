@@ -1,12 +1,20 @@
+@media only screen and (max-width: 850px) {
+    main .vagas__conteudo__vagasAbertas {
+        width: 90vw;
+    }
+    main .vagas__conteudo__vagasAbertas__profissao__boxes__box {
+        width: 80vw;
+    }
+}
 .vagas {
     width: 100vw;
-    height: 1798px;
     display: flex;
     justify-content: center;
+    padding-top: 192px;
+    padding-bottom: 96px;
 }
 .vagas__conteudo {
     width: 88.89vw;
-    height: 1606px;
     display: flex;
     flex-direction: column;
     gap: 64px;

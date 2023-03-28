@@ -1,6 +1,11 @@
+ @media only screen and (max-width: 1280px) {
+    .metricas__conteudo__boxes {
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+} 
 .metricas {
     width: 100vw;
-    height: 288px;
     display: flex;
     justify-content: center;
 }
