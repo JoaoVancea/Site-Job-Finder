@@ -1,0 +1,102 @@
+.vagas {
+    width: 100vw;
+    height: 1798px;
+    display: flex;
+    justify-content: center;
+}
+.vagas__conteudo {
+    width: 88.89vw;
+    height: 1606px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+/* box talentos */
+.vagas__conteudo__talentos {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+}
+.vagas__conteudo__talentos img {
+    width: 100%;
+}
+.vagas__conteudo__talentos__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.vagas__conteudo__talentos__texto__titulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.vagas__conteudo__talentos__texto__titulos h4 {
+    font-size: 14px;
+    color: #8E2424;
+    font-weight: 500;
+    background-color: rgb(142,36,36, 0.05);
+    border-radius: 16px;
+    padding: 4px 12px;
+}
+.vagas__conteudo__talentos__texto__titulos h1 {
+    font-size: 36px;
+    color: #101828;
+    font-weight: 600;
+}
+.vagas__conteudo__talentos__texto p {
+    font-size: 20px;
+    color: #667085;
+    font-weight: 400;
+}
+
+/* box vagas */
+.vagas__conteudo__vagasAbertas {
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+    align-items: center;
+}
+.vagas__conteudo__vagasAbertas__profissao {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.vagas__conteudo__vagasAbertas__profissao h3 {
+    font-size: 20px;
+    color: #101828;
+    font-weight: 500;
+}
+.vagas__conteudo__vagasAbertas__profissao__boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.vagas__conteudo__vagasAbertas__profissao__boxes__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 26px;
+    gap: 32px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    width: 768px;
+    height: 136px;
+}
+.vagas__conteudo__vagasAbertas__profissao__boxes__box h4 {
+    font-size: 18px;
+    color: #101828;
+    font-weight: 500;
+}
+.vagas__conteudo__vagasAbertas__profissao__boxes__box__texto {
+    font-size: 16px;
+    color: #667085;
+    font-weight: 500;
+    display: flex;
+    gap: 24px;
+}
